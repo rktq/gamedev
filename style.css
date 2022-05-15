@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quicksand:wght@300&display=swap');
+
+body {
+    background: url(/images/main_page_wallpaper.jpg);
+}
+
+
+.header {
+    color: white;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 20%;
+}
+
+a:visited{
+    color: white;
+}
+
+/* Анимация ссылок */
+a {
+    
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover {
+    background-size: 100% 1px;
+}
+
+h1 {
+    font-size: 62px;
+}
+
+
